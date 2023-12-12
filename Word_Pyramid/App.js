@@ -23,6 +23,7 @@ export default function App() {
   const [genedLetter, setGenedLetter] = useState(generateRandomLetters);
   const [newLetterCounter, setNewLetterCounter] = useState(10);
 
+  //Disable Buttons
   const [isButtonDisabled1, setButtonDisabled1] = useState(false);
   const [isButtonDisabled2, setButtonDisabled2] = useState(false);
   const [isButtonDisabled3, setButtonDisabled3] = useState(false);
